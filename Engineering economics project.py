@@ -56,3 +56,4 @@ if METHOD == 2: #NEUA method
     for c1 in range(0, N):
         if NEUA[c1] == max:
             print("Project", c1+1, "is the preferrable choice.")
+input("Press enter to exit...")
