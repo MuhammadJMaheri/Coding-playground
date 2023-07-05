@@ -6,8 +6,8 @@ from decimal import Decimal
 def p_b(c_in, a_in):
     '''Uses Erlang B formula to calculate probability of blocking for given C and A'''
     sigma = 0
-    for c in range(c_in+1):
-        sigma += Decimal(a_in**c)/Decimal(factorial(c))
+    for no_channels in range(c_in+1):
+        sigma += Decimal(a_in**no_channels)/Decimal(factorial(no_channels))
     return float(Decimal(a_in**c_in)/Decimal(factorial(c_in))/sigma)
 
 print('''Choose one of the parameters below to calculate using Erlang B:\n
