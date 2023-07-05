@@ -3,7 +3,7 @@ Using equation N = i^2 + ixj + j^2'''
 import math
 N = int(input("Enter a maximum for cluster size:"))
 max_ij = math.floor(math.sqrt(N))
-i = [k for k in range(max_ij + 1)]
+i = [list(range(max_ij + 1))]
 i.reverse()
 j = 0
 usable_n = []
