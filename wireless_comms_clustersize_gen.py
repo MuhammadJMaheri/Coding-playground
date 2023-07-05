@@ -1,4 +1,4 @@
-'''outputs usable values of N(cluster size) from 0 to given input.
+'''outputs usable values of N(cluster size) from 1 to given input.
 Using equation N = i^2 + ixj + j^2'''
 import math
 N = int(input("Enter a maximum for cluster size:"))
